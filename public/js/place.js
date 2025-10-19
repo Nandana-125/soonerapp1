@@ -910,7 +910,7 @@ async function refreshMetrics() {
         showPeople: true,
       });
     } else {
-      setEnterBtnState({
+      setEnterBtnState({ // a small suggestion here would be to make the queue unavailable button have a different color and change the cursor type when it's disabled
         label: "Queue Unavailable",
         disabled: true,
         showPeople: false,
@@ -929,7 +929,7 @@ async function refreshMetrics() {
       else hideTimer();
     }
   }
-}
+} // also make sure to remove chunks of commented out code!
 
 // function bindUI() {
 //   qs("#enterBtn")?.addEventListener("click", () => {
@@ -1112,6 +1112,7 @@ function bindUI() {
         }
       } else {
         // Create new review
+        // I'd also suggest to have a bigger text box for reviews, and to have the text box expand for larger reviews 
         r = await fetch(`/api/reviews/${encodeURIComponent(currentId)}`, {
           method: "POST",
           credentials: "include",
