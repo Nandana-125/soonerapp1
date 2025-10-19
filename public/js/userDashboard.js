@@ -141,6 +141,7 @@ async function toggleLike(venueId, btn) {
 }
 
 // Card factory
+// for places that don't have a linked image, i suggest handling that with a premade image with the place name centered to match the ui 
 function makeCard(p) {
   const div = document.createElement("div");
   div.className = "card";
