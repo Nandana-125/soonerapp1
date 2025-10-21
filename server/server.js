@@ -25,6 +25,7 @@ const SESSION_SECRET = process.env.SESSION_SECRET || "dev-secret";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// Hard-coded CORS origin can be environment variable
 // ---- CORS
 app.use(cors({ origin: "http://localhost:5173", credentials: true }));
 
