@@ -72,6 +72,11 @@ export function getClient() {
 }
 
 /** Optional graceful shutdown */
+// added try catch for error handling
 export async function closeDb() {
-  await client.close();
+  try {
+    await client.close();
+  } catch (err) {
+    console.error('Error closing database:', err);
+  }
 }

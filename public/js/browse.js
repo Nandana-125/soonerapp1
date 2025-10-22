@@ -195,6 +195,8 @@ async function load() {
     const items = Array.isArray(resp) ? resp : resp.items || [];
     const grid = document.getElementById("venueGrid");
     grid.innerHTML = "";
+    // can include loading state
+    // grid.innerHTML = '<div class="loading">Loading venues...</div>';
     if (!items.length) {
       grid.innerHTML = "<p>No results found.</p>";
       return;
