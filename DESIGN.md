@@ -86,7 +86,12 @@ Sooner is a web application that replaces physical walk‑in lines with a **virt
 
 ---
 
-## 6) Wireframes (Text)
+## 6) Wireframes 
+![WhatsApp Image 2025-10-15 at 00 15 39 (2)](https://github.com/user-attachments/assets/8efdc62d-f43a-4e39-b4f8-938b7ab465eb)
+
+![WhatsApp Image 2025-10-15 at 00 15 39 (1)](https://github.com/user-attachments/assets/cceadc70-8927-47fd-a2fa-9590c3ef5328)
+
+![WhatsApp Image 2025-10-15 at 00 15 39](https://github.com/user-attachments/assets/0cbc6cd0-24bb-409c-8cff-2cdbd0e56ac7)
 
 **Browse**
 ```
@@ -96,7 +101,7 @@ Sooner is a web application that replaces physical walk‑in lines with a **virt
 
 **Place**
 ```
-Cover   Name  ⭐  City • $$    [♡]
+Cover   Name  City • $$    [♡]
 Chips: Cuisine • N in queue
 Announcement (optional)
 Live Queue: Count • ETA • Your Position
